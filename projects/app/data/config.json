@@ -78,6 +78,29 @@
       "customExtractPrompt": "",
       "defaultSystemChatPrompt": "",
       "defaultConfig": {}
+    },
+    {
+      "model": "SenseChat-5",
+      "name": "商汤日日新",
+      "avatar": "/imgs/model/sensetime.png",
+      "maxContext": 131072,
+      "maxResponse": 4000,
+      "quoteMaxToken": 100000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": false,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": true,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
     }
   ],
   "vectorModels": [
@@ -113,6 +136,16 @@
       "charsPointsPrice": 0,
       "defaultToken": 512,
       "maxToken": 3000,
+      "weight": 100,
+      "dbConfig": {},
+      "queryConfig": {}
+    },{
+      "model": "nova-embedding-stable",
+      "name": "商汤向量模型",
+      "avatar": "/imgs/model/sensetime.png",
+      "charsPointsPrice": 0,
+      "defaultToken": 512,
+      "maxToken": 512,
       "weight": 100,
       "dbConfig": {},
       "queryConfig": {}
